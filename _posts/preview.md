@@ -8,6 +8,11 @@ author:
   picture: "/assets/blog/authors/mindlogic.jpeg"
 ogImage:
   url: "/assets/blog/preview/cover.jpg"
+tags:
+  - Informe
+  - Chatbot
+  - AI
+  - Customer Service
 ---
 
 In today's global digital landscape, providing instant, accurate information to website visitors around the clock is essential. **Informe** is Mindlogic's intelligent website chatbot solution that transforms your organizational documents into an always-available, multilingual assistant.

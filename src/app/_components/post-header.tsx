@@ -3,15 +3,17 @@ import CoverImage from "./cover-image";
 import DateFormatter from "./date-formatter";
 import { PostTitle } from "@/app/_components/post-title";
 import { type Author } from "@/interfaces/author";
+import { TagList } from "./tag-list";
 
 type Props = {
   title: string;
   coverImage: string;
   date: string;
   author: Author;
+  tags?: string[];
 };
 
-export function PostHeader({ title, coverImage, date, author }: Props) {
+export function PostHeader({ title, coverImage, date, author, tags }: Props) {
   return (
     <>
       <PostTitle>{title}</PostTitle>
@@ -28,6 +30,11 @@ export function PostHeader({ title, coverImage, date, author }: Props) {
         <div className="mb-6 text-lg">
           <DateFormatter dateString={date} />
         </div>
+        {tags && tags.length > 0 && (
+          <div className="mb-8">
+            <TagList tags={tags} linkable={true} />
+          </div>
+        )}
       </div>
     </>
   );
