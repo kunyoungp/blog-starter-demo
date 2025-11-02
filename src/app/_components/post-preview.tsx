@@ -22,20 +22,35 @@ export function PostPreview({
   slug,
 }: Props) {
   return (
-    <div>
-      <div className="mb-5">
+    <div className="group bg-white dark:bg-slate-800 rounded-3xl overflow-hidden border border-gray-200 dark:border-slate-700 card-hover shadow-md hover:shadow-xl">
+      <div className="overflow-hidden">
         <CoverImage slug={slug} title={title} src={coverImage} />
       </div>
-      <h3 className="text-3xl mb-3 leading-snug">
-        <Link href={`/posts/${slug}`} className="hover:underline">
-          {title}
-        </Link>
-      </h3>
-      <div className="text-lg mb-4">
-        <DateFormatter dateString={date} />
+      <div className="p-8">
+        <div className="flex items-center gap-2 text-sm text-mindlogic-600 dark:text-mindlogic-400 mb-4">
+          <DateFormatter dateString={date} />
+        </div>
+        <h3 className="text-2xl md:text-3xl font-bold mb-4 leading-snug">
+          <Link
+            href={`/posts/${slug}`}
+            className="text-gray-900 dark:text-gray-100 group-hover:text-mindlogic-600 dark:group-hover:text-mindlogic-400 transition-colors duration-300"
+          >
+            {title}
+          </Link>
+        </h3>
+        <p className="text-base text-gray-600 dark:text-gray-400 leading-relaxed mb-6 line-clamp-3">
+          {excerpt}
+        </p>
+        <div className="flex items-center justify-between pt-4 border-t border-gray-200 dark:border-slate-700">
+          <Avatar name={author.name} picture={author.picture} />
+          <Link
+            href={`/posts/${slug}`}
+            className="text-sm font-semibold text-mindlogic-600 dark:text-mindlogic-400 hover:text-mindlogic-700 dark:hover:text-mindlogic-300 transition-colors"
+          >
+            Read more →
+          </Link>
+        </div>
       </div>
-      <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
-      <Avatar name={author.name} picture={author.picture} />
     </div>
   );
 }
