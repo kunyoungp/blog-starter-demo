@@ -1,19 +1,35 @@
 ---
-title: "Learn How to Pre-render Pages Using Static Generation with Next.js"
-excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus."
+title: "Introducing Bliss: AI That Brings You Closer to Your Favorite Personalities"
+excerpt: "Bliss is a revolutionary persona-based chatbot application that analyzes communication patterns, vocal characteristics, and personality traits of public figures to create authentic AI representations that fans can interact with anytime."
 coverImage: "/assets/blog/hello-world/cover.jpg"
-date: "2020-03-16T05:35:07.322Z"
+date: "2025-01-15T09:00:00.000Z"
 author:
-  name: Tim Neutkens
-  picture: "/assets/blog/authors/tim.jpeg"
+  name: Mindlogic Team
+  picture: "/assets/blog/authors/mindlogic.jpeg"
 ogImage:
   url: "/assets/blog/hello-world/cover.jpg"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.
+At Mindlogic, we believe in creating AI you want to talk to more. Today, we're excited to share more about **Bliss**, our groundbreaking persona-based chatbot application that's transforming how fans connect with their favorite personalities.
 
-Venenatis cras sed felis eget velit. Consectetur libero id faucibus nisl tincidunt. Gravida in fermentum et sollicitudin ac orci phasellus egestas tellus. Volutpat consequat mauris nunc congue nisi vitae. Id aliquet risus feugiat in ante metus dictum at tempor. Sed blandit libero volutpat sed cras. Sed odio morbi quis commodo odio aenean sed adipiscing. Velit euismod in pellentesque massa placerat. Mi bibendum neque egestas congue quisque egestas diam in arcu. Nisi lacus sed viverra tellus in. Nibh cras pulvinar mattis nunc sed. Luctus accumsan tortor posuere ac ut consequat semper viverra. Fringilla ut morbi tincidunt augue interdum velit euismod.
+## What Makes Bliss Special?
 
-## Lorem Ipsum
+Bliss goes beyond traditional chatbots by creating authentic AI representations of public figures. Our advanced technology analyzes communication patterns, vocal characteristics, and personality traits to build AI personas that truly capture the essence of the individual.
 
-Tristique senectus et netus et malesuada fames ac turpis. Ridiculous mus mauris vitae ultricies leo integer malesuada nunc vel. In mollis nunc sed id semper. Egestas tellus rutrum tellus pellentesque. Phasellus vestibulum lorem sed risus ultricies tristique nulla. Quis blandit turpis cursus in hac habitasse platea dictumst quisque. Eros donec ac odio tempor orci dapibus ultrices. Aliquam sem et tortor consequat id porta nibh. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla. Diam vulputate ut pharetra sit amet. Ut tellus elementum sagittis vitae et leo. Arcu non odio euismod lacinia at quis risus sed vulputate.
+Whether you're a fan wanting to engage with your favorite celebrity, or a content creator looking to extend your reach and availability to your audience, Bliss makes it possible to have meaningful conversations anytime, anywhere.
+
+## The Technology Behind the Magic
+
+Our persona grounding technology is at the heart of Bliss. We encode personalities, values, and communication styles into our AI systems, ensuring that every interaction feels genuine and true to the original personality.
+
+Key features include:
+
+- **Voice Integration**: Support for voice conversation modes with realistic tone and voice modeling
+- **Long-Term Memory**: The system maintains conversation history to develop progressive, relationship-building capabilities
+- **Authentic Communication**: Every response reflects the unique speaking style and perspective of the persona
+
+## Creating AI You Want to Talk to More
+
+At Mindlogic, our mission is simple: create conversational AI solutions that users genuinely want to engage with repeatedly. Bliss exemplifies this philosophy by offering interactions that are engaging, authentic, and emotionally resonant.
+
+We're proud to be at the forefront of generative AI innovation, based in Seoul, South Korea, and working with partners across entertainment, education, and enterprise sectors.

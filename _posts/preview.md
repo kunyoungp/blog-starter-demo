@@ -1,19 +1,60 @@
 ---
-title: "Preview Mode for Static Generation"
-excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus."
+title: "Informe: Your 24/7 Multilingual Website Assistant"
+excerpt: "Informe is a multilingual website chatbot trained on your organizational documents, delivering round-the-clock guidance and information retrieval through advanced document-based learning and RAG technology."
 coverImage: "/assets/blog/preview/cover.jpg"
-date: "2020-03-16T05:35:07.322Z"
+date: "2025-01-25T09:00:00.000Z"
 author:
-  name: Joe Haddad
-  picture: "/assets/blog/authors/joe.jpeg"
+  name: Mindlogic Team
+  picture: "/assets/blog/authors/mindlogic.jpeg"
 ogImage:
   url: "/assets/blog/preview/cover.jpg"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.
+In today's global digital landscape, providing instant, accurate information to website visitors around the clock is essential. **Informe** is Mindlogic's intelligent website chatbot solution that transforms your organizational documents into an always-available, multilingual assistant.
 
-Venenatis cras sed felis eget velit. Consectetur libero id faucibus nisl tincidunt. Gravida in fermentum et sollicitudin ac orci phasellus egestas tellus. Volutpat consequat mauris nunc congue nisi vitae. Id aliquet risus feugiat in ante metus dictum at tempor. Sed blandit libero volutpat sed cras. Sed odio morbi quis commodo odio aenean sed adipiscing. Velit euismod in pellentesque massa placerat. Mi bibendum neque egestas congue quisque egestas diam in arcu. Nisi lacus sed viverra tellus in. Nibh cras pulvinar mattis nunc sed. Luctus accumsan tortor posuere ac ut consequat semper viverra. Fringilla ut morbi tincidunt augue interdum velit euismod.
+## Document-Based Intelligence
 
-## Lorem Ipsum
+Informe learns from your organization's existing knowledge base—manuals, FAQs, policies, guides, and any other documentation you provide. Using advanced document processing and machine learning, Informe creates a comprehensive understanding of your organization's information.
 
-Tristique senectus et netus et malesuada fames ac turpis. Ridiculous mus mauris vitae ultricies leo integer malesuada nunc vel. In mollis nunc sed id semper. Egestas tellus rutrum tellus pellentesque. Phasellus vestibulum lorem sed risus ultricies tristique nulla. Quis blandit turpis cursus in hac habitasse platea dictumst quisque. Eros donec ac odio tempor orci dapibus ultrices. Aliquam sem et tortor consequat id porta nibh. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla. Diam vulputate ut pharetra sit amet. Ut tellus elementum sagittis vitae et leo. Arcu non odio euismod lacinia at quis risus sed vulputate.
+When a visitor asks a question, Informe retrieves the most relevant information from your documents and provides accurate, contextual answers in real-time.
+
+## 24/7 Availability in Multiple Languages
+
+Your customers and stakeholders don't operate on a 9-to-5 schedule, and neither should your support. Informe provides:
+
+- **Round-the-clock availability**: Answer questions any time of day or night
+- **Multilingual support**: Communicate in multiple languages to serve global audiences
+- **Instant responses**: No waiting in queues or for business hours
+- **Consistent information**: Every visitor receives accurate, up-to-date answers
+
+## Advanced RAG Technology
+
+Like our other solutions, Informe leverages cutting-edge Retrieval-Augmented Generation (RAG) technology:
+
+- **Precise Question Analysis**: Query reformulation and multi-query decomposition ensure the system understands what visitors are really asking
+- **Hybrid Search**: Combines multiple search strategies to find the most relevant information
+- **Continuous Evaluation**: The system constantly improves accuracy based on interactions
+
+## Secure Deployment Options
+
+For organizations with sensitive information or strict data governance requirements, Informe offers **on-premise deployment**. Your documents and visitor interactions remain on your internal servers, ensuring complete data privacy and compliance.
+
+## Real-World Applications
+
+Informe serves diverse organizational needs:
+
+- **Universities**: Help students find course information, admission requirements, and campus resources
+- **Enterprises**: Guide employees through policies, procedures, and internal documentation
+- **Government Agencies**: Provide citizens with instant access to public services information
+- **Customer Service**: Reduce support ticket volume by answering common questions automatically
+
+## Getting Started
+
+Implementing Informe is straightforward:
+
+1. Provide your organizational documents
+2. Customize the chatbot's appearance and behavior
+3. Integrate with your website
+4. Monitor and refine based on visitor interactions
+
+Visit [informe.bot](https://informe.bot) to see Informe in action and learn how it can transform your organization's information delivery.
