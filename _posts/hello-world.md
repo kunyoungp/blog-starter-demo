@@ -8,6 +8,11 @@ author:
   picture: "/assets/blog/authors/mindlogic.jpeg"
 ogImage:
   url: "/assets/blog/hello-world/cover.jpg"
+tags:
+  - AI
+  - Bliss
+  - Chatbot
+  - Innovation
 ---
 
 At Mindlogic, we believe in creating AI you want to talk to more. Today, we're excited to share more about **Bliss**, our groundbreaking persona-based chatbot application that's transforming how fans connect with their favorite personalities.

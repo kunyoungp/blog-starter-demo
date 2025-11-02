@@ -8,6 +8,11 @@ author:
   picture: "/assets/blog/authors/mindlogic.jpeg"
 ogImage:
   url: "/assets/blog/dynamic-routing/cover.jpg"
+tags:
+  - FactChat
+  - Enterprise
+  - LLM
+  - Platform
 ---
 
 Organizations today face a common challenge: how to provide their teams with access to powerful AI language models while managing costs and maintaining security. **FactChat** solves this problem by offering a comprehensive multi-LLM platform designed for enterprise deployment.

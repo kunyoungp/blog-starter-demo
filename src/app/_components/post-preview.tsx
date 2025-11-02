@@ -3,6 +3,7 @@ import Link from "next/link";
 import Avatar from "./avatar";
 import CoverImage from "./cover-image";
 import DateFormatter from "./date-formatter";
+import { TagList } from "./tag-list";
 
 type Props = {
   title: string;
@@ -11,6 +12,7 @@ type Props = {
   excerpt: string;
   author: Author;
   slug: string;
+  tags?: string[];
 };
 
 export function PostPreview({
@@ -20,6 +22,7 @@ export function PostPreview({
   excerpt,
   author,
   slug,
+  tags,
 }: Props) {
   return (
     <div className="group bg-white dark:bg-slate-800 rounded-3xl overflow-hidden border border-gray-200 dark:border-slate-700 card-hover shadow-md hover:shadow-xl">
@@ -38,9 +41,14 @@ export function PostPreview({
             {title}
           </Link>
         </h3>
-        <p className="text-base text-gray-600 dark:text-gray-400 leading-relaxed mb-6 line-clamp-3">
+        <p className="text-base text-gray-600 dark:text-gray-400 leading-relaxed mb-4 line-clamp-3">
           {excerpt}
         </p>
+        {tags && tags.length > 0 && (
+          <div className="mb-6">
+            <TagList tags={tags} linkable={true} />
+          </div>
+        )}
         <div className="flex items-center justify-between pt-4 border-t border-gray-200 dark:border-slate-700">
           <Avatar name={author.name} picture={author.picture} />
           <Link
