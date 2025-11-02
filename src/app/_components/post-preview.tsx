@@ -11,6 +11,7 @@ type Props = {
   excerpt: string;
   author: Author;
   slug: string;
+  readingTime?: string;
 };
 
 export function PostPreview({
@@ -20,6 +21,7 @@ export function PostPreview({
   excerpt,
   author,
   slug,
+  readingTime,
 }: Props) {
   return (
     <div className="group bg-white dark:bg-slate-800 rounded-3xl overflow-hidden border border-gray-200 dark:border-slate-700 card-hover shadow-md hover:shadow-xl">
@@ -29,6 +31,12 @@ export function PostPreview({
       <div className="p-8">
         <div className="flex items-center gap-2 text-sm text-mindlogic-600 dark:text-mindlogic-400 mb-4">
           <DateFormatter dateString={date} />
+          {readingTime && (
+            <>
+              <span className="text-gray-400 dark:text-gray-600">•</span>
+              <span>{readingTime}</span>
+            </>
+          )}
         </div>
         <h3 className="text-2xl md:text-3xl font-bold mb-4 leading-snug">
           <Link

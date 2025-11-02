@@ -9,9 +9,10 @@ type Props = {
   coverImage: string;
   date: string;
   author: Author;
+  readingTime?: string;
 };
 
-export function PostHeader({ title, coverImage, date, author }: Props) {
+export function PostHeader({ title, coverImage, date, author, readingTime }: Props) {
   return (
     <>
       <PostTitle>{title}</PostTitle>
@@ -25,8 +26,16 @@ export function PostHeader({ title, coverImage, date, author }: Props) {
         <div className="block md:hidden mb-6">
           <Avatar name={author.name} picture={author.picture} />
         </div>
-        <div className="mb-6 text-lg">
+        <div className="mb-6 text-lg flex items-center gap-3 text-gray-600 dark:text-gray-400">
           <DateFormatter dateString={date} />
+          {readingTime && (
+            <>
+              <span className="text-gray-400 dark:text-gray-600">•</span>
+              <span className="text-mindlogic-600 dark:text-mindlogic-400 font-medium">
+                {readingTime}
+              </span>
+            </>
+          )}
         </div>
       </div>
     </>

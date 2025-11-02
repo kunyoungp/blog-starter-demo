@@ -11,6 +11,7 @@ type Props = {
   excerpt: string;
   author: Author;
   slug: string;
+  readingTime?: string;
 };
 
 export function HeroPost({
@@ -20,6 +21,7 @@ export function HeroPost({
   excerpt,
   author,
   slug,
+  readingTime,
 }: Props) {
   return (
     <section className="mb-20 md:mb-32">
@@ -40,6 +42,12 @@ export function HeroPost({
             </h3>
             <div className="flex items-center gap-2 text-sm text-mindlogic-600 dark:text-mindlogic-400">
               <DateFormatter dateString={date} />
+              {readingTime && (
+                <>
+                  <span className="text-gray-400 dark:text-gray-600">•</span>
+                  <span>{readingTime}</span>
+                </>
+              )}
             </div>
             <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
               {excerpt}
