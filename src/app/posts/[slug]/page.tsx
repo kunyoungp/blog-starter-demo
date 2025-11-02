@@ -8,6 +8,7 @@ import Container from "@/app/_components/container";
 import Header from "@/app/_components/header";
 import { PostBody } from "@/app/_components/post-body";
 import { PostHeader } from "@/app/_components/post-header";
+import { ReadingProgress } from "@/app/_components/reading-progress";
 
 export default async function Post(props: Params) {
   const params = await props.params;
@@ -21,6 +22,7 @@ export default async function Post(props: Params) {
 
   return (
     <main>
+      <ReadingProgress />
       <Alert preview={post.preview} />
       <Container>
         <Header />
@@ -30,6 +32,7 @@ export default async function Post(props: Params) {
             coverImage={post.coverImage}
             date={post.date}
             author={post.author}
+            readingTime={post.readingTime}
           />
           <PostBody content={content} />
         </article>
